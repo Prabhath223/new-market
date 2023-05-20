@@ -1,12 +1,14 @@
 {
+  
+
+  "homepage": "https://prabhath223.github.io/market",
 
   "name": "my-rr",
 
   "version": "0.1.0",
 
   "private": true,
-  
-  "homepage": "https://prabhath223.github.io/market",
+
 
   "dependencies": {
 
@@ -29,16 +31,17 @@
   "scripts": {
 
     "start": "react-scripts start",
+    
+    "predeploy": "npm run build",
+
+    "deploy": "gh-pages -d build",
 
     "build": "react-scripts build",
 
     "test": "react-scripts test",
 
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
 
-    "predeploy": "npm run build",
-
-    "deploy": "gh-pages -d build"
 
   },
 
